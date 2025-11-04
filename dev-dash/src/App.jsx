@@ -37,7 +37,12 @@ function App() {
         </div>
       </main>
       
-    
+      <footer className={`${theme === 'dark' ? 'bg-gray-800 text-gray-400' : 'bg-white text-gray-600'} mt-12 py-6`}>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <p>Built with React & Tailwind CSS</p>
+          <p className="text-sm mt-1">Developer Dashboard © 2024</p>
+        </div>
+      </footer>
     </div>
   );
 }

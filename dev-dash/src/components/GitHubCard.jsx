@@ -7,7 +7,7 @@ function GitHubCard({ theme }) {
 
   useEffect(() => {
     // Replace 'octocat' with your GitHub username
-    fetch('https://api.github.com/users/octocat')
+    fetch('https://api.github.com/users/Loicet')
       .then(response => {
         if (!response.ok) {
           throw new Error('Failed to fetch GitHub data');
